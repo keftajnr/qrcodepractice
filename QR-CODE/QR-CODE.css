@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    margin: auto 0px
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(214, 225, 241)
+}
+
+.code-container{
+    width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    background: white;
+    /* display: grid;
+    grid-template-rows: 70% 30%; */
+}
+
+.QRcode-container{
+    margin-bottom: 22px;
+}
+
+.QRcode-container img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.code-info-container{
+    margin-bottom: 22px;
+}
+
+.code-info-header{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+
+.code-info-header span{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+}
+
+.code-info-message{
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.code-info-message span{
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+
+@media screen and (max-width: 950px) {
+    .code-info-message{
+        padding: 0px 10px;
+    }
+}
